@@ -16,10 +16,10 @@
           <Children>
 
             <!--Title-->
-            <RichTextWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="670" SuggestedHeight="55" HorizontalAlignment="Right" Brush="Stage.Title.Text" Text="@Title" />
+            <RichTextWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="670" SuggestedHeight="55" HorizontalAlignment="Right" Brush="Stage.Title.Text" Text="CC's Banner Editor" />
 
             <!--Description-->
-            <RichTextWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="650" SuggestedHeight="90" HorizontalAlignment="Right" MarginTop="100" Brush="Stage.Description.Text" Text="@Description" />
+            <RichTextWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="650" SuggestedHeight="90" HorizontalAlignment="Right" MarginTop="100" Brush="Stage.Description.Text" Text="Customize your banner" />
 
             <ListPanel WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="573" SuggestedHeight="750" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="23" PositionYOffset="37" StackLayout.LayoutMethod="VerticalBottomToTop">
               <Children>
@@ -34,7 +34,7 @@
                         <Widget Id="ClipRect" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" ClipContents="true" GamepadNavigationIndex="0">
                           <Children>
 
-                            <GridWidget DataSource="{IconsList}" Id="IconsGrid" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="5" DefaultCellHeight="112" DefaultCellWidth="112" LayoutImp="GridLayout" >
+                            <GridWidget DataSource="{IconsList}" Id="IconsGrid" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="7" DefaultCellHeight="80" DefaultCellWidth="80" LayoutImp="GridLayout" >
                               <ItemTemplate>
                                 <ButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="104" SuggestedHeight="104" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="FaceGen.Card" ButtonType="Radio" Command.Click="ExecuteSelectIcon" IsSelected="@IsSelected" ClipContents="true" DoNotUseCustomScaleAndChildren="true">
                                   <Children>
