@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+	<Name value="CC's Banners" />
+	<Id value="Bannerlord.CCsBanners" />
+	<Version value="v2.0.0" />
+	<DefaultModule value="false" />
+	<SingleplayerModule value="true" />
+	<MultiplayerModule value="false" />
+	<Official value="false" />
+	<DependedModules>
+		<DependedModule Id="Native" />
+		<DependedModule Id="SandBoxCore" />
+		<DependedModule Id="Sandbox" />
+		<DependedModule Id="CustomBattle" />
+		<DependedModule Id="StoryMode" />
+	</DependedModules>
+</Module>
