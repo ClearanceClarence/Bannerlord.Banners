@@ -103,7 +103,7 @@
                               <Children>
                                 <TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="110"  MarginRight="50" VerticalAlignment="Center" Brush="Crafting.Property.Name.Text" Text="Background"/>
 
-                                <GridWidget DataSource="{PrimaryColorList}" Id="PrimaryColorGrid" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="15" DefaultCellHeight="25" DefaultCellWidth="25" LayoutImp="GridLayout" VerticalAlignment="Center">
+                                <GridWidget DataSource="{PrimaryColorList}" Id="PrimaryColorGrid" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="20" DefaultCellHeight="14" DefaultCellWidth="14" LayoutImp="GridLayout" VerticalAlignment="Center">
                                   <ItemTemplate>
                                     <ColorButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="3" MarginRight="3" MarginTop="3" MarginBottom="3" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Creation.ColorCard" ColorToApply="@ColorAsStr" ButtonType="Radio" UpdateChildrenStates="true" IsSelected="@IsSelected" Command.Click="ExecuteSelectIcon" >
                                       <Children>
@@ -123,7 +123,7 @@
                               <Children>
                                 <TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="110"  MarginRight="50" VerticalAlignment="Center" Brush="Crafting.Property.Name.Text" Text="Sigil"/>
 
-                                <GridWidget DataSource="{SigilColorList}" Id="PrimaryColorGrid" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="15" DefaultCellHeight="25" DefaultCellWidth="25" LayoutImp="GridLayout" VerticalAlignment="Center">
+                                <GridWidget DataSource="{SigilColorList}" Id="PrimaryColorGrid" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="20" DefaultCellHeight="14" DefaultCellWidth="14" LayoutImp="GridLayout" VerticalAlignment="Center">
                                   <ItemTemplate>
                                     <ColorButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="3" MarginRight="3" MarginTop="3" MarginBottom="3" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Creation.ColorCard" ColorToApply="@ColorAsStr" ButtonType="Radio" UpdateChildrenStates="true" IsSelected="@IsSelected" Command.Click="ExecuteSelectIcon" >
                                       <Children>
