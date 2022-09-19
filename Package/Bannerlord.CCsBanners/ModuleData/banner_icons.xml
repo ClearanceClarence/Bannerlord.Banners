@@ -382,6 +382,139 @@
       <Icon id="76916" material_name="cc_banners_20" texture_index="15" />
     </BannerIconGroup>
 
+    <BannerIconGroup id="770" name="{=!} Various Banners" is_pattern="false">
+      <Icon id="77001" material_name="cc_banners_21" texture_index="0" />
+      <Icon id="77002" material_name="cc_banners_21" texture_index="1" />
+      <Icon id="77003" material_name="cc_banners_21" texture_index="2" />
+      <Icon id="77004" material_name="cc_banners_21" texture_index="3" />
+      <Icon id="77005" material_name="cc_banners_21" texture_index="4" />
+      <Icon id="77006" material_name="cc_banners_21" texture_index="5" />
+      <Icon id="77007" material_name="cc_banners_21" texture_index="6" />
+      <Icon id="77008" material_name="cc_banners_21" texture_index="7" />
+      <Icon id="77009" material_name="cc_banners_21" texture_index="8" />
+      <Icon id="77010" material_name="cc_banners_21" texture_index="9" />
+      <Icon id="77011" material_name="cc_banners_21" texture_index="10" />
+      <Icon id="77012" material_name="cc_banners_21" texture_index="11" />
+      <Icon id="77013" material_name="cc_banners_21" texture_index="12" />
+      <Icon id="77014" material_name="cc_banners_21" texture_index="13" />
+      <Icon id="77015" material_name="cc_banners_21" texture_index="14" />
+      <Icon id="77016" material_name="cc_banners_21" texture_index="15" />
+    </BannerIconGroup>
+
+    <BannerIconGroup id="771" name="{=!} Magic Circles" is_pattern="false">
+      <Icon id="77101" material_name="cc_banners_22" texture_index="0" />
+      <Icon id="77102" material_name="cc_banners_22" texture_index="1" />
+      <Icon id="77103" material_name="cc_banners_22" texture_index="2" />
+      <Icon id="77104" material_name="cc_banners_22" texture_index="3" />
+      <Icon id="77105" material_name="cc_banners_22" texture_index="4" />
+      <Icon id="77106" material_name="cc_banners_22" texture_index="5" />
+      <Icon id="77107" material_name="cc_banners_22" texture_index="6" />
+      <Icon id="77108" material_name="cc_banners_22" texture_index="7" />
+      <Icon id="77109" material_name="cc_banners_22" texture_index="8" />
+      <Icon id="77110" material_name="cc_banners_22" texture_index="9" />
+      <Icon id="77111" material_name="cc_banners_22" texture_index="10" />
+      <Icon id="77112" material_name="cc_banners_22" texture_index="11" />
+      <Icon id="77113" material_name="cc_banners_22" texture_index="12" />
+      <Icon id="77114" material_name="cc_banners_22" texture_index="13" />
+      <Icon id="77115" material_name="cc_banners_22" texture_index="14" />
+      <Icon id="77116" material_name="cc_banners_22" texture_index="15" />
+    </BannerIconGroup>
+
+    <BannerIconGroup id="772" name="{=!} Aztec / Mayan" is_pattern="false">
+      <Icon id="77201" material_name="cc_banners_23" texture_index="0" />
+      <Icon id="77202" material_name="cc_banners_23" texture_index="1" />
+      <Icon id="77203" material_name="cc_banners_23" texture_index="2" />
+      <Icon id="77204" material_name="cc_banners_23" texture_index="3" />
+      <Icon id="77205" material_name="cc_banners_23" texture_index="4" />
+      <Icon id="77206" material_name="cc_banners_23" texture_index="5" />
+      <Icon id="77207" material_name="cc_banners_23" texture_index="6" />
+      <Icon id="77208" material_name="cc_banners_23" texture_index="7" />
+      <Icon id="77209" material_name="cc_banners_23" texture_index="8" />
+      <Icon id="77210" material_name="cc_banners_23" texture_index="9" />
+      <Icon id="77211" material_name="cc_banners_23" texture_index="10" />
+      <Icon id="77212" material_name="cc_banners_23" texture_index="11" />
+      <Icon id="77213" material_name="cc_banners_23" texture_index="12" />
+      <Icon id="77214" material_name="cc_banners_23" texture_index="13" />
+      <Icon id="77215" material_name="cc_banners_23" texture_index="14" />
+      <Icon id="77216" material_name="cc_banners_23" texture_index="15" />
+    </BannerIconGroup>
+
+    <BannerIconGroup id="773" name="{=!} Celtic" is_pattern="false">
+      <Icon id="77301" material_name="cc_banners_24" texture_index="0" />
+      <Icon id="77302" material_name="cc_banners_24" texture_index="1" />
+      <Icon id="77303" material_name="cc_banners_24" texture_index="2" />
+      <Icon id="77304" material_name="cc_banners_24" texture_index="3" />
+      <Icon id="77305" material_name="cc_banners_24" texture_index="4" />
+      <Icon id="77306" material_name="cc_banners_24" texture_index="5" />
+      <Icon id="77307" material_name="cc_banners_24" texture_index="6" />
+      <Icon id="77308" material_name="cc_banners_24" texture_index="7" />
+      <Icon id="77309" material_name="cc_banners_24" texture_index="8" />
+      <Icon id="77310" material_name="cc_banners_24" texture_index="9" />
+      <Icon id="77311" material_name="cc_banners_24" texture_index="10" />
+      <Icon id="77312" material_name="cc_banners_24" texture_index="11" />
+      <Icon id="77313" material_name="cc_banners_24" texture_index="12" />
+      <Icon id="77314" material_name="cc_banners_24" texture_index="13" />
+      <Icon id="77315" material_name="cc_banners_24" texture_index="14" />
+      <Icon id="77316" material_name="cc_banners_24" texture_index="15" />
+    </BannerIconGroup>
+
+    <BannerIconGroup id="774" name="{=!} Celtic" is_pattern="false">
+      <Icon id="77401" material_name="cc_banners_25" texture_index="0" />
+      <Icon id="77402" material_name="cc_banners_25" texture_index="1" />
+      <Icon id="77403" material_name="cc_banners_25" texture_index="2" />
+      <Icon id="77404" material_name="cc_banners_25" texture_index="3" />
+      <Icon id="77405" material_name="cc_banners_25" texture_index="4" />
+      <Icon id="77406" material_name="cc_banners_25" texture_index="5" />
+      <Icon id="77407" material_name="cc_banners_25" texture_index="6" />
+      <Icon id="77408" material_name="cc_banners_25" texture_index="7" />
+      <Icon id="77409" material_name="cc_banners_25" texture_index="8" />
+      <Icon id="77410" material_name="cc_banners_25" texture_index="9" />
+      <Icon id="77411" material_name="cc_banners_25" texture_index="10" />
+      <Icon id="77412" material_name="cc_banners_25" texture_index="11" />
+      <Icon id="77413" material_name="cc_banners_25" texture_index="12" />
+      <Icon id="77414" material_name="cc_banners_25" texture_index="13" />
+      <Icon id="77415" material_name="cc_banners_25" texture_index="14" />
+      <Icon id="77416" material_name="cc_banners_25" texture_index="15" />
+    </BannerIconGroup>
+
+    <BannerIconGroup id="775" name="{=!} Celtic" is_pattern="false">
+      <Icon id="77501" material_name="cc_banners_26" texture_index="0" />
+      <Icon id="77502" material_name="cc_banners_26" texture_index="1" />
+      <Icon id="77503" material_name="cc_banners_26" texture_index="2" />
+      <Icon id="77504" material_name="cc_banners_26" texture_index="3" />
+      <Icon id="77505" material_name="cc_banners_26" texture_index="4" />
+      <Icon id="77506" material_name="cc_banners_26" texture_index="5" />
+      <Icon id="77507" material_name="cc_banners_26" texture_index="6" />
+      <Icon id="77508" material_name="cc_banners_26" texture_index="7" />
+      <Icon id="77509" material_name="cc_banners_26" texture_index="8" />
+      <Icon id="77510" material_name="cc_banners_26" texture_index="9" />
+      <Icon id="77511" material_name="cc_banners_26" texture_index="10" />
+      <Icon id="77512" material_name="cc_banners_26" texture_index="11" />
+      <Icon id="77513" material_name="cc_banners_26" texture_index="12" />
+      <Icon id="77514" material_name="cc_banners_26" texture_index="13" />
+      <Icon id="77515" material_name="cc_banners_26" texture_index="14" />
+      <Icon id="77516" material_name="cc_banners_26" texture_index="15" />
+    </BannerIconGroup>
+
+    <BannerIconGroup id="776" name="{=!} Celtic" is_pattern="false">
+      <Icon id="77601" material_name="cc_banners_27" texture_index="0" />
+      <Icon id="77602" material_name="cc_banners_27" texture_index="1" />
+      <Icon id="77603" material_name="cc_banners_27" texture_index="2" />
+      <Icon id="77604" material_name="cc_banners_27" texture_index="3" />
+      <Icon id="77605" material_name="cc_banners_27" texture_index="4" />
+      <Icon id="77606" material_name="cc_banners_27" texture_index="5" />
+      <Icon id="77607" material_name="cc_banners_27" texture_index="6" />
+      <Icon id="77608" material_name="cc_banners_27" texture_index="7" />
+      <Icon id="77609" material_name="cc_banners_27" texture_index="8" />
+      <Icon id="77610" material_name="cc_banners_27" texture_index="9" />
+      <Icon id="77611" material_name="cc_banners_27" texture_index="10" />
+      <Icon id="77612" material_name="cc_banners_27" texture_index="11" />
+      <Icon id="77613" material_name="cc_banners_27" texture_index="12" />
+      <Icon id="77614" material_name="cc_banners_27" texture_index="13" />
+      <Icon id="77615" material_name="cc_banners_27" texture_index="14" />
+      <Icon id="77616" material_name="cc_banners_27" texture_index="15" />
+    </BannerIconGroup>
+
     <BannerColors>
       <Color id="200" hex="0xff591313" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
       <Color id="201" hex="0xff712116" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
