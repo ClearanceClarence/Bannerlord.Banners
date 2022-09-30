@@ -2,6 +2,18 @@
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
   <BannerIconData>
+    <BannerIconGroup id="749" name="{=!} Requests" is_pattern="false">
+      <Icon id="74901" material_name="cc_banners_requests_01" texture_index="0" />
+      <Icon id="74902" material_name="cc_banners_requests_01" texture_index="1" />
+      <Icon id="74903" material_name="cc_banners_requests_01" texture_index="2" />
+      <Icon id="74904" material_name="cc_banners_requests_01" texture_index="3" />
+      <Icon id="74905" material_name="cc_banners_requests_01" texture_index="4" />
+      <Icon id="74906" material_name="cc_banners_requests_01" texture_index="5" />
+      <Icon id="74907" material_name="cc_banners_requests_01" texture_index="6" />
+      <Icon id="74908" material_name="cc_banners_requests_01" texture_index="7" />
+      <Icon id="74909" material_name="cc_banners_requests_01" texture_index="8" />
+    </BannerIconGroup>
+
     <BannerIconGroup id="750" name="{=!} Various Banners 01" is_pattern="false">
       <Icon id="75001" material_name="cc_banners_01" texture_index="0" />
       <Icon id="75002" material_name="cc_banners_01" texture_index="1" />
@@ -513,6 +525,178 @@
       <Icon id="77614" material_name="cc_banners_27" texture_index="13" />
       <Icon id="77615" material_name="cc_banners_27" texture_index="14" />
       <Icon id="77616" material_name="cc_banners_27" texture_index="15" />
+    </BannerIconGroup>
+
+    <BannerIconGroup id="777" name="{=!} Demon Signs 01" is_pattern="false">
+      <Icon id="77701" material_name="cc_banners_28" texture_index="0" />
+      <Icon id="77702" material_name="cc_banners_28" texture_index="1" />
+      <Icon id="77703" material_name="cc_banners_28" texture_index="2" />
+      <Icon id="77704" material_name="cc_banners_28" texture_index="3" />
+      <Icon id="77705" material_name="cc_banners_28" texture_index="4" />
+      <Icon id="77706" material_name="cc_banners_28" texture_index="5" />
+      <Icon id="77707" material_name="cc_banners_28" texture_index="6" />
+      <Icon id="77708" material_name="cc_banners_28" texture_index="7" />
+      <Icon id="77709" material_name="cc_banners_28" texture_index="8" />
+      <Icon id="77710" material_name="cc_banners_28" texture_index="9" />
+      <Icon id="77711" material_name="cc_banners_28" texture_index="10" />
+      <Icon id="77712" material_name="cc_banners_28" texture_index="11" />
+      <Icon id="77713" material_name="cc_banners_28" texture_index="12" />
+      <Icon id="77714" material_name="cc_banners_28" texture_index="13" />
+      <Icon id="77715" material_name="cc_banners_28" texture_index="14" />
+      <Icon id="77716" material_name="cc_banners_28" texture_index="15" />
+    </BannerIconGroup>
+
+    <BannerIconGroup id="778" name="{=!} Demon Signs 02" is_pattern="false">
+      <Icon id="77801" material_name="cc_banners_29" texture_index="0" />
+      <Icon id="77802" material_name="cc_banners_29" texture_index="1" />
+      <Icon id="77803" material_name="cc_banners_29" texture_index="2" />
+      <Icon id="77804" material_name="cc_banners_29" texture_index="3" />
+      <Icon id="77805" material_name="cc_banners_29" texture_index="4" />
+      <Icon id="77806" material_name="cc_banners_29" texture_index="5" />
+      <Icon id="77807" material_name="cc_banners_29" texture_index="6" />
+      <Icon id="77808" material_name="cc_banners_29" texture_index="7" />
+      <Icon id="77809" material_name="cc_banners_29" texture_index="8" />
+      <Icon id="77810" material_name="cc_banners_29" texture_index="9" />
+      <Icon id="77811" material_name="cc_banners_29" texture_index="10" />
+      <Icon id="77812" material_name="cc_banners_29" texture_index="11" />
+      <Icon id="77813" material_name="cc_banners_29" texture_index="12" />
+      <Icon id="77814" material_name="cc_banners_29" texture_index="13" />
+      <Icon id="77815" material_name="cc_banners_29" texture_index="14" />
+      <Icon id="77816" material_name="cc_banners_29" texture_index="15" />
+    </BannerIconGroup>
+
+    <BannerIconGroup id="779" name="{=!} Demon Signs 03" is_pattern="false">
+      <Icon id="77901" material_name="cc_banners_30" texture_index="0" />
+      <Icon id="77902" material_name="cc_banners_30" texture_index="1" />
+      <Icon id="77903" material_name="cc_banners_30" texture_index="2" />
+      <Icon id="77904" material_name="cc_banners_30" texture_index="3" />
+      <Icon id="77905" material_name="cc_banners_30" texture_index="4" />
+      <Icon id="77906" material_name="cc_banners_30" texture_index="5" />
+      <Icon id="77907" material_name="cc_banners_30" texture_index="6" />
+      <Icon id="77908" material_name="cc_banners_30" texture_index="7" />
+      <Icon id="77909" material_name="cc_banners_30" texture_index="8" />
+      <Icon id="77910" material_name="cc_banners_30" texture_index="9" />
+      <Icon id="77911" material_name="cc_banners_30" texture_index="10" />
+      <Icon id="77912" material_name="cc_banners_30" texture_index="11" />
+      <Icon id="77913" material_name="cc_banners_30" texture_index="12" />
+      <Icon id="77914" material_name="cc_banners_30" texture_index="13" />
+      <Icon id="77915" material_name="cc_banners_30" texture_index="14" />
+      <Icon id="77916" material_name="cc_banners_30" texture_index="15" />
+    </BannerIconGroup>
+
+
+    <BannerIconGroup id="780" name="{=!} Demon Signs 04" is_pattern="false">
+      <Icon id="78001" material_name="cc_banners_31" texture_index="0" />
+      <Icon id="78002" material_name="cc_banners_31" texture_index="1" />
+      <Icon id="78003" material_name="cc_banners_31" texture_index="2" />
+      <Icon id="78004" material_name="cc_banners_31" texture_index="3" />
+      <Icon id="78005" material_name="cc_banners_31" texture_index="4" />
+      <Icon id="78006" material_name="cc_banners_31" texture_index="5" />
+      <Icon id="78007" material_name="cc_banners_31" texture_index="6" />
+      <Icon id="78008" material_name="cc_banners_31" texture_index="7" />
+      <Icon id="78009" material_name="cc_banners_31" texture_index="8" />
+      <Icon id="78010" material_name="cc_banners_31" texture_index="9" />
+      <Icon id="78011" material_name="cc_banners_31" texture_index="10" />
+      <Icon id="78012" material_name="cc_banners_31" texture_index="11" />
+      <Icon id="78013" material_name="cc_banners_31" texture_index="12" />
+      <Icon id="78014" material_name="cc_banners_31" texture_index="13" />
+      <Icon id="78015" material_name="cc_banners_31" texture_index="14" />
+      <Icon id="78016" material_name="cc_banners_31" texture_index="15" />
+    </BannerIconGroup>
+
+    <BannerIconGroup id="781" name="{=!} Celestial Signs" is_pattern="false">
+      <Icon id="78101" material_name="cc_banners_32" texture_index="0" />
+      <Icon id="78102" material_name="cc_banners_32" texture_index="1" />
+      <Icon id="78103" material_name="cc_banners_32" texture_index="2" />
+      <Icon id="78104" material_name="cc_banners_32" texture_index="3" />
+      <Icon id="78105" material_name="cc_banners_32" texture_index="4" />
+      <Icon id="78106" material_name="cc_banners_32" texture_index="5" />
+      <Icon id="78107" material_name="cc_banners_32" texture_index="6" />
+      <Icon id="78108" material_name="cc_banners_32" texture_index="7" />
+      <Icon id="78109" material_name="cc_banners_32" texture_index="8" />
+      <Icon id="78110" material_name="cc_banners_32" texture_index="9" />
+      <Icon id="78111" material_name="cc_banners_32" texture_index="10" />
+      <Icon id="78112" material_name="cc_banners_32" texture_index="11" />
+      <Icon id="78113" material_name="cc_banners_32" texture_index="12" />
+      <Icon id="78114" material_name="cc_banners_32" texture_index="13" />
+      <Icon id="78115" material_name="cc_banners_32" texture_index="14" />
+      <Icon id="78116" material_name="cc_banners_32" texture_index="15" />
+    </BannerIconGroup>
+
+    <BannerIconGroup id="782" name="{=!} GoT 1" is_pattern="false">
+      <Icon id="78201" material_name="cc_banners_33" texture_index="0" />
+      <Icon id="78202" material_name="cc_banners_33" texture_index="1" />
+      <Icon id="78203" material_name="cc_banners_33" texture_index="2" />
+      <Icon id="78204" material_name="cc_banners_33" texture_index="3" />
+      <Icon id="78205" material_name="cc_banners_33" texture_index="4" />
+      <Icon id="78206" material_name="cc_banners_33" texture_index="5" />
+      <Icon id="78207" material_name="cc_banners_33" texture_index="6" />
+      <Icon id="78208" material_name="cc_banners_33" texture_index="7" />
+      <Icon id="78209" material_name="cc_banners_33" texture_index="8" />
+      <Icon id="78210" material_name="cc_banners_33" texture_index="9" />
+      <Icon id="78211" material_name="cc_banners_33" texture_index="10" />
+      <Icon id="78212" material_name="cc_banners_33" texture_index="11" />
+      <Icon id="78213" material_name="cc_banners_33" texture_index="12" />
+      <Icon id="78214" material_name="cc_banners_33" texture_index="13" />
+      <Icon id="78215" material_name="cc_banners_33" texture_index="14" />
+      <Icon id="78216" material_name="cc_banners_33" texture_index="15" />
+    </BannerIconGroup>
+
+    <BannerIconGroup id="783" name="{=!} GoT 2" is_pattern="false">
+      <Icon id="78301" material_name="cc_banners_34" texture_index="0" />
+      <Icon id="78302" material_name="cc_banners_34" texture_index="1" />
+      <Icon id="78303" material_name="cc_banners_34" texture_index="2" />
+      <Icon id="78304" material_name="cc_banners_34" texture_index="3" />
+      <Icon id="78305" material_name="cc_banners_34" texture_index="4" />
+      <Icon id="78306" material_name="cc_banners_34" texture_index="5" />
+      <Icon id="78307" material_name="cc_banners_34" texture_index="6" />
+      <Icon id="78308" material_name="cc_banners_34" texture_index="7" />
+      <Icon id="78309" material_name="cc_banners_34" texture_index="8" />
+      <Icon id="78310" material_name="cc_banners_34" texture_index="9" />
+      <Icon id="78311" material_name="cc_banners_34" texture_index="10" />
+      <Icon id="78312" material_name="cc_banners_34" texture_index="11" />
+      <Icon id="78313" material_name="cc_banners_34" texture_index="12" />
+      <Icon id="78314" material_name="cc_banners_34" texture_index="13" />
+      <Icon id="78315" material_name="cc_banners_34" texture_index="14" />
+      <Icon id="78316" material_name="cc_banners_34" texture_index="15" />
+    </BannerIconGroup>
+
+    <BannerIconGroup id="784" name="{=!} GoT 3" is_pattern="false">
+      <Icon id="78401" material_name="cc_banners_35" texture_index="0" />
+      <Icon id="78402" material_name="cc_banners_35" texture_index="1" />
+      <Icon id="78403" material_name="cc_banners_35" texture_index="2" />
+      <Icon id="78404" material_name="cc_banners_35" texture_index="3" />
+      <Icon id="78405" material_name="cc_banners_35" texture_index="4" />
+      <Icon id="78406" material_name="cc_banners_35" texture_index="5" />
+      <Icon id="78407" material_name="cc_banners_35" texture_index="6" />
+      <Icon id="78408" material_name="cc_banners_35" texture_index="7" />
+      <Icon id="78409" material_name="cc_banners_35" texture_index="8" />
+      <Icon id="78410" material_name="cc_banners_35" texture_index="9" />
+      <Icon id="78411" material_name="cc_banners_35" texture_index="10" />
+      <Icon id="78412" material_name="cc_banners_35" texture_index="11" />
+      <Icon id="78413" material_name="cc_banners_35" texture_index="12" />
+      <Icon id="78414" material_name="cc_banners_35" texture_index="13" />
+      <Icon id="78415" material_name="cc_banners_35" texture_index="14" />
+      <Icon id="78416" material_name="cc_banners_35" texture_index="15" />
+    </BannerIconGroup>
+
+    <BannerIconGroup id="785" name="{=!} GoT 4" is_pattern="false">
+      <Icon id="78501" material_name="cc_banners_36" texture_index="0" />
+      <Icon id="78502" material_name="cc_banners_36" texture_index="1" />
+      <Icon id="78503" material_name="cc_banners_36" texture_index="2" />
+      <Icon id="78504" material_name="cc_banners_36" texture_index="3" />
+      <Icon id="78505" material_name="cc_banners_36" texture_index="4" />
+      <Icon id="78506" material_name="cc_banners_36" texture_index="5" />
+      <Icon id="78507" material_name="cc_banners_36" texture_index="6" />
+      <Icon id="78508" material_name="cc_banners_36" texture_index="7" />
+      <Icon id="78509" material_name="cc_banners_36" texture_index="8" />
+      <Icon id="78510" material_name="cc_banners_36" texture_index="9" />
+      <Icon id="78511" material_name="cc_banners_36" texture_index="10" />
+      <Icon id="78512" material_name="cc_banners_36" texture_index="11" />
+      <Icon id="78513" material_name="cc_banners_36" texture_index="12" />
+      <Icon id="78514" material_name="cc_banners_36" texture_index="13" />
+      <Icon id="78515" material_name="cc_banners_36" texture_index="14" />
+      <Icon id="78516" material_name="cc_banners_36" texture_index="15" />
     </BannerIconGroup>
 
     <BannerColors>
