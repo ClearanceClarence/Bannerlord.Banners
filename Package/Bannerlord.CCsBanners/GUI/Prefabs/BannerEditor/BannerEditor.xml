@@ -110,10 +110,10 @@
                                         <!--Primary Color Selection-->
                                         <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginLeft="15" VerticalAlignment="Center" IsVisible="@CanChangeBackgroundColor">
                                           <Children>
-                                            <TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="140" MarginRight="25" VerticalAlignment="Center" Brush="Crafting.Property.Name.Text" Text="@PrimaryColorText"/>
+                                            <TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="140" MarginRight="25" HorizontalAlignment="Left" VerticalAlignment="Center" Brush="Crafting.Property.Name.Text" Text="Background:"/>
 
                                             <NavigationScopeTargeter ScopeID="BannerEditorPrimaryColorsScope" ScopeParent="..\PrimaryColorGrid" ScopeMovements="Horizontal" AlternateScopeMovements="Vertical" AlternateMovementStepSize="8" UpNavigationScope="BannerEditorSizeSliderScope" DownNavigationScope="BannerEditorSwitchColorsButtonScope" />
-                                            <NavigatableGridWidget DataSource="{PrimaryColorList}" Id="PrimaryColorGrid" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="25" DefaultCellHeight="12" DefaultCellWidth="12" LayoutImp="GridLayout" VerticalAlignment="Center">
+                                            <NavigatableGridWidget DataSource="{PrimaryColorList}" Id="PrimaryColorGrid" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="20" DefaultCellHeight="17" DefaultCellWidth="17" LayoutImp="GridLayout" VerticalAlignment="Center">
                                               <ItemTemplate>
                                                 <ColorButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="3" MarginRight="3" MarginTop="3" MarginBottom="3" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Creation.ColorCard" ColorToApply="@ColorAsStr" ButtonType="Radio" UpdateChildrenStates="true" IsSelected="@IsSelected" Command.Click="ExecuteSelectIcon">
                                                   <Children>
@@ -132,10 +132,10 @@
                                         <!--Sigil Color Selection-->
                                         <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginLeft="15" VerticalAlignment="Center">
                                           <Children>
-                                            <TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="140" MarginRight="25" VerticalAlignment="Center" Brush="Crafting.Property.Name.Text" Text="@SigilColorText" />
+                                            <TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="140" MarginRight="25" HorizontalAlignment="Left" VerticalAlignment="Center" Brush="Crafting.Property.Name.Text" Text="Sigil:" />
 
                                             <NavigationScopeTargeter ScopeID="BannerEditorSecondaryColorsScope" ScopeParent="..\SecondaryColorGrid" ScopeMovements="Horizontal" AlternateScopeMovements="Vertical" AlternateMovementStepSize="8" UpNavigationScope="BannerEditorSwitchColorsButtonScope" />
-                                            <NavigatableGridWidget DataSource="{SigilColorList}" Id="SecondaryColorGrid" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="25" DefaultCellHeight="12" DefaultCellWidth="12" LayoutImp="GridLayout" VerticalAlignment="Center">
+                                            <NavigatableGridWidget DataSource="{SigilColorList}" Id="SecondaryColorGrid" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="20" DefaultCellHeight="17" DefaultCellWidth="17" LayoutImp="GridLayout" VerticalAlignment="Center">
                                               <ItemTemplate>
                                                 <ColorButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="3" MarginRight="3" MarginTop="3" MarginBottom="3" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Creation.ColorCard" ColorToApply="@ColorAsStr" ButtonType="Radio" UpdateChildrenStates="true" IsSelected="@IsSelected" Command.Click="ExecuteSelectIcon">
                                                   <Children>
