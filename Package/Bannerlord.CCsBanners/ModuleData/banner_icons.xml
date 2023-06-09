@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
   <BannerIconData>
     <BannerIconGroup id="749" name="{=!} Requests" is_pattern="false">
       <Icon id="74901" material_name="cc_banners_requests_01" texture_index="0" />

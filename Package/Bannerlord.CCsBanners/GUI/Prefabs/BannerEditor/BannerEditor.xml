@@ -24,19 +24,19 @@
               <Children>
 
                 <!--Icon Selection-->
-                <Widget Id="InnerPanel" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="470">
+                <Widget Id="InnerPanel" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="470" >
                   <Children>
 
                     <ScrollablePanel Id="ScrollablePanel" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" AutoHideScrollBars="true" ClipRect="ClipRect" InnerPanel="ClipRect\IconsGrid" VerticalScrollbar="..\VerticalScrollbar">
                       <Children>
 
-                        <NavigationScopeTargeter ScopeID="BannerEditorIconsScope" ScopeParent="..\ClipRect" ScopeMovements="Horizontal" AlternateScopeMovements="Vertical" AlternateMovementStepSize="5" />
+												<NavigationScopeTargeter ScopeID="BannerEditorIconsScope" ScopeParent="..\ClipRect" ScopeMovements="Horizontal" AlternateScopeMovements="Vertical" AlternateMovementStepSize="5" />
                         <Widget Id="ClipRect" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" ClipContents="true">
                           <Children>
-
-                            <NavigatableGridWidget DataSource="{IconsList}" Id="IconsGrid" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="7" DefaultCellHeight="80" DefaultCellWidth="80" LayoutImp="GridLayout">
+														
+                            <NavigatableGridWidget DataSource="{IconsList}" Id="IconsGrid" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="" DefaultCellHeight="80" DefaultCellWidth="80" LayoutImp="GridLayout" >
                               <ItemTemplate>
-                                <ButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="73" SuggestedHeight="73" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="FaceGen.Card" ButtonType="Radio" Command.Click="ExecuteSelectIcon" IsSelected="@IsSelected" ClipContents="true" DoNotUseCustomScaleAndChildren="true">
+                                <ButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="104" SuggestedHeight="104" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="FaceGen.Card" ButtonType="Radio" Command.Click="ExecuteSelectIcon" IsSelected="@IsSelected" ClipContents="true" DoNotUseCustomScaleAndChildren="true">
                                   <Children>
                                     <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="2" MarginRight="2" MarginTop="2" MarginBottom="2" Sprite="@IconPath" AlphaFactor="0.8" />
                                   </Children>
@@ -53,7 +53,7 @@
                       </Children>
                     </ScrollablePanel>
 
-                    <ScrollbarWidget Id="VerticalScrollbar" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="460" SuggestedWidth="8" HorizontalAlignment="Right" VerticalAlignment="Top" MarginTop="6" MarginBottom="15" AlignmentAxis="Vertical" Handle="VerticalScrollbarHandle" MaxValue="100" MinValue="0">
+                    <ScrollbarWidget Id="VerticalScrollbar" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="460" SuggestedWidth="8" HorizontalAlignment="Right" VerticalAlignment="Top" MarginTop="6" MarginBottom="15" AlignmentAxis="Vertical" Handle="VerticalScrollbarHandle" MaxValue="100" MinValue="0" >
                       <Children>
                         <Widget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="4" HorizontalAlignment="Center" Sprite="BlankWhiteSquare_9" Color="#5a4033FF" AlphaFactor="0.2" />
                         <ImageWidget Id="VerticalScrollbarHandle" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="10" SuggestedWidth="8" HorizontalAlignment="Center" Brush="FaceGen.Scrollbar.Handle" />
@@ -66,115 +66,128 @@
                 <!--Seperator-->
                 <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="52" PositionYOffset="-20" Sprite="Clan\stone_divider_thin"/>
 
-                <Widget Id="InnerPanel" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="220">
-                  <Children>
-                    <ScrollablePanel Id="ScrollablePanel" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" AutoHideScrollBars="true" ClipRect="ClipRect" InnerPanel="ClipRect\ColorAndSizeGrid" VerticalScrollbar="..\VerticalScrollbar">
-                      <Children>
+								<Widget Id="InnerPanel" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="220" >
+									<Children>
+										<ScrollablePanel Id="ScrollablePanel" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" AutoHideScrollBars="true" ClipRect="ClipRect" InnerPanel="ClipRect\ColorAndSizeGrid" VerticalScrollbar="..\VerticalScrollbar">
+											<Children>
 
-                        <Widget Id="ClipRect" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" ClipContents="true">
-                          <Children>
+												<Widget Id="ClipRect" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" ClipContents="true">
+													<Children>
 
-                            <!--Color and Size Selection-->
-                            <ListPanel Id="ColorAndSizeGrid" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="VerticalBottomToTop">
-                              <Children>
+														<!--Color and Size Selection-->
+														<ListPanel Id="ColorAndSizeGrid" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="VerticalBottomToTop">
+															<Children>
 
-                                <!--Size Slider-->
-                                <NavigationScopeTargeter ScopeID="BannerEditorSizeSliderScope" ScopeParent="..\SizeSliderParent" ScopeMovements="Horizontal" UpNavigationScope="BannerEditorIconsScope" DownNavigationScope="BannerEditorPrimaryColorsScope" />
-                                <ListPanel Id="SizeSliderParent" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginLeft="40" MarginBottom="20" VerticalAlignment="Center">
-                                  <Children>
-                                    <TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="100" IsEnabled="false" MarginRight="50" VerticalAlignment="Center" Brush="Crafting.Property.Name.Text" Text="@SizeText" />
+																<!--Size Slider-->
+																<NavigationScopeTargeter ScopeID="BannerEditorSizeSliderScope" ScopeParent="..\SizeSliderParent" ScopeMovements="Horizontal" UpNavigationScope="BannerEditorIconsScope" DownNavigationScope="BannerEditorPrimaryColorsScope" />
+																<ListPanel Id="SizeSliderParent" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginLeft="40" MarginBottom="20" VerticalAlignment="Center">
+																	<Children>
+																		<TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="100" IsEnabled="false" MarginRight="50" VerticalAlignment="Center" Brush="Crafting.Property.Name.Text" Text="@SizeText" />
 
-                                    <SliderWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="338" SuggestedHeight="42" VerticalAlignment="Center" DoNotUpdateHandleSize="true" Filler="Filler" Handle="SliderHandle" IsDiscrete="true" MaxValueInt="@MaxIconSize" MinValueInt="@MinIconSize" ValueInt="@CurrentIconSize" UpdateValueOnRelease="true" DPadMovementEnabled="false">
-                                      <Children>
-                                        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="362" SuggestedHeight="38" HorizontalAlignment="Center" VerticalAlignment="Center" Sprite="SPGeneral\SPOptions\standart_slider_canvas" IsEnabled="false" />
-                                        <Widget Id="Filler" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="345" SuggestedHeight="35" VerticalAlignment="Center" Sprite="SPGeneral\SPOptions\standart_slider_fill" ClipContents="true">
-                                          <Children>
-                                            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="345" SuggestedHeight="35" HorizontalAlignment="Left" VerticalAlignment="Center" Sprite="SPGeneral\SPOptions\standart_slider_fill" />
-                                          </Children>
-                                        </Widget>
-                                        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="400" SuggestedHeight="65" HorizontalAlignment="Center" VerticalAlignment="Center" Sprite="SPGeneral\SPOptions\standart_slider_frame" IsEnabled="false" />
-                                        <BrushWidget Id="SliderHandle" DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="14" SuggestedHeight="38" HorizontalAlignment="Left" VerticalAlignment="Center" Brush="SPOptions.Slider.Handle" GamepadNavigationIndex="0" />
-                                      </Children>
-                                    </SliderWidget>
+																		<SliderWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="338" SuggestedHeight="42" VerticalAlignment="Center" DoNotUpdateHandleSize="true" Filler="Filler" Handle="SliderHandle" IsDiscrete="true" MaxValueInt="@MaxIconSize" MinValueInt="@MinIconSize" ValueInt="@CurrentIconSize" UpdateValueOnRelease="true" DPadMovementEnabled="false">
+																			<Children>
+																				<Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="362" SuggestedHeight="38" HorizontalAlignment="Center" VerticalAlignment="Center" Sprite="SPGeneral\SPOptions\standart_slider_canvas" IsEnabled="false" />
+																				<Widget Id="Filler" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="345" SuggestedHeight="35" VerticalAlignment="Center" Sprite="SPGeneral\SPOptions\standart_slider_fill" ClipContents="true">
+																					<Children>
+																						<Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="345" SuggestedHeight="35" HorizontalAlignment="Left" VerticalAlignment="Center" Sprite="SPGeneral\SPOptions\standart_slider_fill" />
+																					</Children>
+																				</Widget>
+																				<Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="400" SuggestedHeight="65" HorizontalAlignment="Center" VerticalAlignment="Center" Sprite="SPGeneral\SPOptions\standart_slider_frame" IsEnabled="false" />
+																				<BrushWidget Id="SliderHandle" DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="14" SuggestedHeight="38" HorizontalAlignment="Left" VerticalAlignment="Center" Brush="SPOptions.Slider.Handle" GamepadNavigationIndex="0" />
+																			</Children>
+																		</SliderWidget>
 
-                                  </Children>
-                                </ListPanel>
+																	</Children>
+																</ListPanel>
 
-                                <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="HorizontalLeftToRight" VerticalAlignment="Center">
-                                  <Children>
-
-
-                                    <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="VerticalBottomToTop" VerticalAlignment="Center">
-                                      <Children>
-
-                                        <!--Primary Color Selection-->
-                                        <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginLeft="15" VerticalAlignment="Center" IsVisible="@CanChangeBackgroundColor">
-                                          <Children>
-                                            <TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="140" MarginRight="25" HorizontalAlignment="Left" VerticalAlignment="Center" Brush="Crafting.Property.Name.Text" Text="Background:"/>
-
-                                            <NavigationScopeTargeter ScopeID="BannerEditorPrimaryColorsScope" ScopeParent="..\PrimaryColorGrid" ScopeMovements="Horizontal" AlternateScopeMovements="Vertical" AlternateMovementStepSize="8" UpNavigationScope="BannerEditorSizeSliderScope" DownNavigationScope="BannerEditorSwitchColorsButtonScope" />
-                                            <NavigatableGridWidget DataSource="{PrimaryColorList}" Id="PrimaryColorGrid" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="20" DefaultCellHeight="17" DefaultCellWidth="17" LayoutImp="GridLayout" VerticalAlignment="Center">
-                                              <ItemTemplate>
-                                                <ColorButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="3" MarginRight="3" MarginTop="3" MarginBottom="3" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Creation.ColorCard" ColorToApply="@ColorAsStr" ButtonType="Radio" UpdateChildrenStates="true" IsSelected="@IsSelected" Command.Click="ExecuteSelectIcon">
-                                                  <Children>
-                                                    <ImageWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Creation.ColorCard.Selection"/>
-                                                  </Children>
-                                                </ColorButtonWidget>
-                                              </ItemTemplate>
-                                            </NavigatableGridWidget>
-                                          </Children>
-                                        </ListPanel>
-
-                                        <!--Switch Colors Button-->
-                                        <NavigationScopeTargeter ScopeID="BannerEditorSwitchColorsButtonScope" ScopeParent="..\SwitchColorsButton" ScopeMovements="Horizontal" UpNavigationScope="BannerEditorPrimaryColorsScope" DownNavigationScope="BannerEditorSecondaryColorsScope" />
-                                        <ButtonWidget Id="SwitchColorsButton" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="35" SuggestedHeight="37" HorizontalAlignment="Left" MarginTop="5" MarginBottom="5" MarginLeft="95" Command.Click="ExecuteSwitchColors" Brush="Creation.SwitchColor" IsVisible="@CanChangeBackgroundColor" GamepadNavigationIndex="0"/>
-
-                                        <!--Sigil Color Selection-->
-                                        <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginLeft="15" VerticalAlignment="Center">
-                                          <Children>
-                                            <TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="140" MarginRight="25" HorizontalAlignment="Left" VerticalAlignment="Center" Brush="Crafting.Property.Name.Text" Text="Sigil:" />
-
-                                            <NavigationScopeTargeter ScopeID="BannerEditorSecondaryColorsScope" ScopeParent="..\SecondaryColorGrid" ScopeMovements="Horizontal" AlternateScopeMovements="Vertical" AlternateMovementStepSize="8" UpNavigationScope="BannerEditorSwitchColorsButtonScope" />
-                                            <NavigatableGridWidget DataSource="{SigilColorList}" Id="SecondaryColorGrid" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="20" DefaultCellHeight="17" DefaultCellWidth="17" LayoutImp="GridLayout" VerticalAlignment="Center">
-                                              <ItemTemplate>
-                                                <ColorButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="3" MarginRight="3" MarginTop="3" MarginBottom="3" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Creation.ColorCard" ColorToApply="@ColorAsStr" ButtonType="Radio" UpdateChildrenStates="true" IsSelected="@IsSelected" Command.Click="ExecuteSelectIcon">
-                                                  <Children>
-                                                    <ImageWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Creation.ColorCard.Selection"/>
-                                                  </Children>
-                                                </ColorButtonWidget>
-                                              </ItemTemplate>
-                                            </NavigatableGridWidget>
-                                          </Children>
-                                        </ListPanel>
+																<ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="HorizontalLeftToRight"  VerticalAlignment="Center">
+																	<Children>
 
 
-                                      </Children>
-                                    </ListPanel>
+																		<ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="VerticalBottomToTop" VerticalAlignment="Center">
+																			<Children>
 
-                                  </Children>
-                                </ListPanel>
+																				<!--Primary Color Selection-->
+																				<ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginLeft="15" VerticalAlignment="Center" IsVisible="@CanChangeBackgroundColor">
+																					<Children>
+																						<TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="140"  MarginRight="25" VerticalAlignment="Center" Brush="Crafting.Property.Name.Text" Text="@PrimaryColorText"/>
 
-                              </Children>
-                            </ListPanel>
+																						<NavigationScopeTargeter ScopeID="BannerEditorPrimaryColorsScope" ScopeParent="..\PrimaryColorGrid" ScopeMovements="Horizontal" AlternateScopeMovements="Vertical" AlternateMovementStepSize="8" UpNavigationScope="BannerEditorSizeSliderScope" DownNavigationScope="BannerEditorSwitchColorsButtonScope" />
+																						<NavigatableGridWidget DataSource="{PrimaryColorList}" Id="PrimaryColorGrid" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="20" DefaultCellHeight="17" DefaultCellWidth="17" LayoutImp="GridLayout" VerticalAlignment="Center">
+																							<ItemTemplate>
+																								<ColorButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="3" MarginRight="3" MarginTop="3" MarginBottom="3" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Creation.ColorCard" ColorToApply="@ColorAsStr" ButtonType="Radio" UpdateChildrenStates="true" IsSelected="@IsSelected" Command.Click="ExecuteSelectIcon" >
+																									<Children>
+																										<ImageWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Creation.ColorCard.Selection"/>
+																									</Children>
+																								</ColorButtonWidget>
+																							</ItemTemplate>
+																						</NavigatableGridWidget>
+																					</Children>
+																				</ListPanel>
 
-                          </Children>
-                        </Widget>
+																				<!--Switch Colors Button-->
+																				<NavigationScopeTargeter ScopeID="BannerEditorSwitchColorsButtonScope" ScopeParent="..\SwitchColorsButton" ScopeMovements="Horizontal" UpNavigationScope="BannerEditorPrimaryColorsScope" DownNavigationScope="BannerEditorSecondaryColorsScope" />
+																				<ButtonWidget Id="SwitchColorsButton" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="35" SuggestedHeight="37" HorizontalAlignment="Left" MarginTop="5" MarginBottom="5" MarginLeft="95" Command.Click="ExecuteSwitchColors" Brush="Creation.SwitchColor" IsVisible="@CanChangeBackgroundColor" GamepadNavigationIndex="0"/>
 
-                      </Children>
-                    </ScrollablePanel>
+																				<!--Sigil Color Selection-->
+																				<ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginLeft="15" VerticalAlignment="Center">
+																					<Children>
+																						<TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="140"  MarginRight="25" VerticalAlignment="Center" Brush="Crafting.Property.Name.Text" Text="@SigilColorText" />
 
-                    <ScrollbarWidget Id="VerticalScrollbar" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="180" SuggestedWidth="8" HorizontalAlignment="Right" VerticalAlignment="Top" MarginTop="6" MarginBottom="15" AlignmentAxis="Vertical" Handle="VerticalScrollbarHandle" MaxValue="100" MinValue="0">
-                      <Children>
-                        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="4" HorizontalAlignment="Center" Sprite="BlankWhiteSquare_9" Color="#5a4033FF" AlphaFactor="0.2" />
-                        <ImageWidget Id="VerticalScrollbarHandle" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="10" SuggestedWidth="8" HorizontalAlignment="Center" Brush="FaceGen.Scrollbar.Handle" />
-                      </Children>
-                    </ScrollbarWidget>
+																						<NavigationScopeTargeter ScopeID="BannerEditorSecondaryColorsScope" ScopeParent="..\SecondaryColorGrid" ScopeMovements="Horizontal" AlternateScopeMovements="Vertical" AlternateMovementStepSize="8" UpNavigationScope="BannerEditorSwitchColorsButtonScope" />
+																						<NavigatableGridWidget DataSource="{SigilColorList}" Id="SecondaryColorGrid" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="20" DefaultCellHeight="17" DefaultCellWidth="17" LayoutImp="GridLayout" VerticalAlignment="Center">
+																							<ItemTemplate>
+																								<ColorButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="3" MarginRight="3" MarginTop="3" MarginBottom="3" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Creation.ColorCard" ColorToApply="@ColorAsStr" ButtonType="Radio" UpdateChildrenStates="true" IsSelected="@IsSelected" Command.Click="ExecuteSelectIcon" >
+																									<Children>
+																										<ImageWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Creation.ColorCard.Selection"/>
+																									</Children>
+																								</ColorButtonWidget>
+																							</ItemTemplate>
+																						</NavigatableGridWidget>
+																					</Children>
+																				</ListPanel>
 
-                  </Children>
-                </Widget>
 
-              </Children>
+																			</Children>
+																		</ListPanel>
+
+																	</Children>
+																</ListPanel>
+
+															</Children>
+														</ListPanel>
+
+													</Children>
+												</Widget>
+
+											</Children>
+										</ScrollablePanel>
+
+										<ScrollbarWidget Id="VerticalScrollbar" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="180" SuggestedWidth="8" HorizontalAlignment="Right" VerticalAlignment="Top" MarginTop="6" MarginBottom="15" AlignmentAxis="Vertical" Handle="VerticalScrollbarHandle" MaxValue="100" MinValue="0" >
+											<Children>
+												<Widget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="4" HorizontalAlignment="Center" Sprite="BlankWhiteSquare_9" Color="#5a4033FF" AlphaFactor="0.2" />
+												<ImageWidget Id="VerticalScrollbarHandle" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="10" SuggestedWidth="8" HorizontalAlignment="Center" Brush="FaceGen.Scrollbar.Handle" />
+											</Children>
+										</ScrollbarWidget>
+
+									</Children>
+								</Widget>
+
+							</Children>
             </ListPanel>
+
+            <!--<Widget Id="FillCanvasWidget" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="490" SuggestedHeight="6" HorizontalAlignment="Right" VerticalAlignment="Bottom" MarginRight="60" MarginBottom="80" Sprite="General\CharacterCreation\creation_progress_bar_canvas">
+              <Children>
+                <Widget Id="FillWidget" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="490" SuggestedHeight="19" HorizontalAlignment="Left" VerticalAlignment="Center" Sprite="General\CharacterCreation\creation_progress_bar_fill"/>
+              </Children>
+            </Widget>-->
+
+            <!--Stage Selection Bar--><!--
+            <CharacterCreationStageSelectionBarWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="517" SuggestedHeight="60" HorizontalAlignment="Right" VerticalAlignment="Bottom" MarginRight="45" MarginBottom="53" Command.OnStageSelection="ExecuteGoToIndex" CurrentStageIndex="@CurrentStageIndex" StackLayout.LayoutMethod="HorizontalSpaced" StageButtonTemplate="StageButtonTemplateButtonWidget" TotalStagesCount="@TotalStageCount" OpenedStageIndex="@FurthestIndex" FullButtonBrush="Stages.Bar.Full.Button" EmptyButtonBrush="Stages.Bar.Empty.Button" FullBrightButtonBrush="Stages.Bar.FullCurrent.Button" BarFillWidget="..\FillCanvasWidget\FillWidget" BarCanvasWidget="..\FillCanvasWidget" >
+              <Children>
+                <ButtonWidget Id="StageButtonTemplateButtonWidget" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="59" SuggestedHeight="59" Brush="ButtonSimpleBrush" />
+              </Children>
+            </CharacterCreationStageSelectionBarWidget>-->
 
             <!--Previous and Next Buttons-->
             <ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" VerticalAlignment="Bottom" MarginBottom="50" MarginRight="40">
